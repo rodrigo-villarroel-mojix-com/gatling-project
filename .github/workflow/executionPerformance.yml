@@ -8,3 +8,12 @@ on:
         description: 'testSuite'
         required: true
         default: 'pokemonapi.PokemonApiTest'
+
+  jobs:
+    execpokemonapi:
+      runs-on: ubuntu-latest
+      name: Execution Performance Pokemon API
+      steps:
+        - name: Checkout code
+          uses: actions/checkout@v3
+
