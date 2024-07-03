@@ -21,5 +21,6 @@ jobs:
         uses: gradle/gradle-build-action@v3
 
       - name: Execute test
+        run: gradle gatlingRun --simulation=pokemonapi.PokemonApiTest
 
 
