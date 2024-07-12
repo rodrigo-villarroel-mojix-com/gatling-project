@@ -34,6 +34,12 @@ jobs:
       - name: Execute test
         run: gradle gatlingRun --simulation=${{ inputs.testSuite }} -DconcurrentUsers=${{ inputs.concurrent }}
 
+      - name: Rename report file
+        run: |
+          file=$(find ./build/reports/gatling/ -name 'restfulapi-*/index.html')
+          mkdir -p ./build/reports/gatling/restfulapi
+          mv "$file" ./build/reports/gatling/restfulapi/index.html   
+
       - name: Save report
         if: ${{always()}}
         uses: actions/upload-artifact@v3.1.2
