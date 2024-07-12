@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Apple MacBook Pro 16",
+    "year": 2019,
+    "price": 1849.99,
+    "cpuModel": "Intel Core i9",
+    "hardDiskSize": "1 TB"
+  },
+  {
+    "name": "Dell XPS 13",
+    "year": 2020,
+    "price": 1299.99,
+    "cpuModel": "Intel Core i7",
+    "hardDiskSize": "512 GB"
+  },
+  {
+    "name": "HP Spectre x360",
+    "year": 2021,
+    "price": 1399.99,
+    "cpuModel": "Intel Core i7",
+    "hardDiskSize": "1 TB"
+  },
+  {
+    "name": "Microsoft Surface Laptop 4",
+    "year": 2021,
+    "price": 1599.99,
+    "cpuModel": "AMD Ryzen 7",
+    "hardDiskSize": "512 GB"
+  },
+  {
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "year": 2020,
+    "price": 1749.99,
+    "cpuModel": "Intel Core i7",
+    "hardDiskSize": "1 TB"
+  },
+  {
+    "name": "Asus ROG Zephyrus G14",
+    "year": 2020,
+    "price": 1499.99,
+    "cpuModel": "AMD Ryzen 9",
+    "hardDiskSize": "1 TB"
+  },
+  {
+    "name": "Acer Swift 3",
+    "year": 2021,
+    "price": 849.99,
+    "cpuModel": "Intel Core i5",
+    "hardDiskSize": "512 GB"
+  },
+  {
+    "name": "Razer Blade 15",
+    "year": 2019,
+    "price": 1999.99,
+    "cpuModel": "Intel Core i7",
+    "hardDiskSize": "1 TB"
+  },
+  {
+    "name": "Google Pixelbook Go",
+    "year": 2019,
+    "price": 649.99,
+    "cpuModel": "Intel Core i5",
+    "hardDiskSize": "128 GB"
+  },
+  {
+    "name": "Samsung Galaxy Book Flex",
+    "year": 2020,
+    "price": 1349.99,
+    "cpuModel": "Intel Core i7",
+    "hardDiskSize": "512 GB"
+  }
+]
